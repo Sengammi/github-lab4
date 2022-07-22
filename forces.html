@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання №4</title>
+    <style>
+        .pseudo-classes{
+            color: black;
+            text-decoration: none;
+        }
+        .pseudo-classes:link{
+            color: black;
+            border-bottom: 3px solid grey;
+        }
+        .pseudo-classes:visited{
+            color: maroon;
+            border-bottom: 3px groove #591f1f;
+        }
+        .pseudo-classes:hover{
+            color: mediumpurple;
+            border-bottom: 3px dotted #572cb0;
+        }
+        .pseudo-classes:active{
+            color: orange;
+            border-bottom: 3px double orangered;
+        }
+        .hover-force{
+            text-decoration: none;
+        }
+        .hover-force:hover{
+            text-decoration: underline;
+        }
+        .icon-force {
+            background-image:url(https://cdn-icons-png.flaticon.com/512/136/136528.png);
+            width:16px;
+            height:16px;
+            display:inline-block;
+            vertical-align:bottom;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">посилання-заглушка</a><br>
+    <a href="#part1">посилання з якорем (до низу)</a><br>
+    <a href="forces.html" download="">посилання на завантаження цього документу</a><br>
+    <p>зображення-посилання 1:</p>
+    <a href="https://github.com/Sengammi"><img src="https://avatars.githubusercontent.com/u/109361905?v=4"></a>
+    <p>зображення-посилання 2:</p>
+    <a href="https://github.com/Sengammi" target="_blank"><img src="https://avatars.githubusercontent.com/u/109361905?v=4"></a><br>
+    <a class="pseudo-classes" href="">посилання з використанням псевдокласів</a><br>
+    <a style="text-decoration: none" href="">посилання в якому підкреслення посилання не вказується</a><br>
+    <a class="hover-force" href="">посилання в якому додається підкреслення тільки при наведенні на посилання</a><br>
+    <a download="" href="forces.html"><img style="width:26px; height:26px; display:inline-block; vertical-align:bottom; margin-right: 10px" src="https://cdn-icons-png.flaticon.com/512/136/136528.png">посилання з іконкою (завантажити даний файл)</a>
+    <p  id="part1">Даний рядок необхідний для демонстрації посилання-якоря</p>
+</body>
+</html>
