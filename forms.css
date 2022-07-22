@@ -1,0 +1,189 @@
+.first-form{
+    width: 320px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    padding: 10px;
+}
+.first-form div{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.first-form table{
+    width: 300px;
+}
+.first-form th{
+    text-align: left;
+}
+.first-form table input{
+    padding-left: 5px;
+    padding-right: 5px;
+
+    margin-left: 10px;
+    text-align: left;
+    width: 90%;
+    border-color: #b7b7b7;
+    border-width: 1px;
+    border-radius: 3px;
+}
+.select-gender{
+    border-radius: 3px;
+    border-color: #b7b7b7;
+}
+.second-form{
+    width: 485px;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+.second-form th{
+    text-align: left;
+}
+.submit-reset{
+    horiz-align: center;
+}
+.third-form{
+    font-family: Roboto;
+    width: 605px;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    padding: 10px;
+}
+.third-form a{
+    color: cornflowerblue;
+}
+.third-form a:hover{
+    color: #94b2e3;
+}
+.third-form a:active{
+    color: #78d98c;
+}
+.third-form hr{
+    color: gray;
+}
+.head-third-form div{
+    display: inline-block;
+}
+.sing-in-text{
+    width: 49%;
+    text-align: left;
+}
+.sing-in-exit{
+    width: 49%;
+    text-align: right;
+}
+.body-third-form div{
+    vertical-align: top;
+    display: inline-block;
+}
+.sing-in-input{
+    width: 56%;
+}
+.sing-in-input p{
+    margin-bottom: 5px;
+    color: grey;
+}
+.vertical-line{
+    height: 100%;
+    color: gray;
+}
+.v-line{
+    height:120px;
+    width: 1px;
+    background-color: gray;
+}
+.v-line_2{
+    vertical-align: bottom;
+    height:270px;
+    width: 1px;
+    display: block;
+    background-color: gray;
+}
+.sing-in-another{
+    width: 38%;
+    text-align: center;
+}
+.sing-in-another p{
+    color: gray;
+}
+.input-data{
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+.another-sing-in-button{
+    height: 50px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    color: #3b5998;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ececec;
+}
+.another-sing-in-button:hover{
+    background-color: #dedede;
+}
+.another-sing-in-button:active{
+    background-color: #a8b1b9;
+}
+.icon{
+    height:20px;
+    display:inline-block;
+    vertical-align:bottom;
+    margin-right: 20px;
+}
+.remember-forgot{
+    margin-top: 20px;
+    width: 95%;
+    vertical-align: center;
+}
+.remember-me-button{
+    width: 54%;
+    display: inline-block;
+}
+.remember-me{
+    width: 20px;
+}
+.forgot-password-force{
+    width: 44%;
+    display: inline-block;
+    text-align: right;
+}
+.forces{
+    text-decoration: none;
+}
+.big-button{
+    width: 100%;
+}
+.sing-in-button{
+    margin-top: 20px;
+    width: 92%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #469446;
+    color: white;
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+}
+.sing-in-button:hover{
+    background-color: #328032;
+}
+.sing-in-button:active{
+    background-color: #77a25b;
+}
+.register{
+    margin: 15px;
+    width: 92%;
+    text-align: center;
+}
+.exit{
+    color: gray;
+}
+.exit:hover{
+    color: #4d4d4d;
+}
+.exit:active{
+    color: #313131;
+}
